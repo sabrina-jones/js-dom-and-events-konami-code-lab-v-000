@@ -13,7 +13,7 @@ function keyDownHandler(event){
     index++
 
     if (index===code.length-1){
-      alert('Congrats!')
+      alert("Hurray!")
       index=0
     }
   } else {
