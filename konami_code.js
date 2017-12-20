@@ -9,14 +9,14 @@ let index = 0;
 function keyDownHandler(event){
   const key = parseInt(event.detail || event.which)
 
-  if (key===code[index]){
-    index++
+  if (key === code[index]){
+    index ++;
 
-    if (index===code.length-1){
-      alert("Hurray!")
-      index=0
+    if (index === code.length-1){
+      alert("Hurray!");
+      index = 0;
     }
   } else {
-    index=0
+    index = 0;
   }
 }
