@@ -4,6 +4,8 @@ function init() {
    document.body.addEventListener('keydown',keyDownHandler)
 }
 
+let index = 0;
+
 function keyDownHandler(event){
   const key = parseInt(event.detail || event.which)
 
@@ -11,7 +13,7 @@ function keyDownHandler(event){
     index++
 
     if (index===code.length-1){
-      alert('Congrat!')
+      alert('Congrats!')
       index=0
     }
   } else {
